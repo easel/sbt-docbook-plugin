@@ -2,8 +2,8 @@ import sbt._
 import java.net.URL
 
 class DocBookPluginProject(info: ProjectInfo) extends PluginProject(info) {
-  val xalan = "xalan" % "xalan" % "2.7.1"
-  val fop = "org.apache.xmlgraphics" % "fop" % "1.0"
+	val xalan = "xalan" % "xalan" % "2.7.1"
+	val fop = "org.apache.xmlgraphics" % "fop" % "1.0"
 
   val docBookVersion = "1.76.1"
   val docBookXslUrl = new URL("http://sourceforge.net/projects/docbook/files/docbook-xsl/" + 
